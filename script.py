@@ -9,7 +9,7 @@ file_txt = open("attack_DDoS.txt",'a')
 t1 = str(datetime.now())
 file_txt.writelines(t1)
 file_txt.writelines("\n")
-No_of_IPs = 15
+No_of_IPs = 50
 R_No_of_IPs = No_of_IPs +10
   
   while True:
